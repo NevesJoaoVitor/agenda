@@ -3,7 +3,11 @@ package com.mangati.agenda.controller;
 import com.mangati.agenda.dto.AgendamentoDTO;
 import com.mangati.agenda.service.AgendamentoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ByteArrayResource;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.http.ContentDisposition;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
