@@ -1,4 +1,3 @@
-
  package com.mangati.agenda.util;
    
     import com.mangati.agenda.dto.AgendamentoDTO;
@@ -61,4 +60,3 @@
            return "ID,Service ID,Start Time,End Time,Patient Name,Patient Phone,Patient Email,Observations,Status";
        }
    }
-
